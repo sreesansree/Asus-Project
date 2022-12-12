@@ -11,10 +11,45 @@ header{
    
     color: #4d4d4d;;
 } 
+.Sc-header{
+    width: 100%;
+    height: 35px;
+    background-color: #FFFF; 
+    display: flex;
+    font-size: .9375rem;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    width: 100%;
+    height: 35px;
+    background-color: #FFFF; 
+    border-top: 1px solid rgba(255,255, 255,.2);
+    border-bottom: 1px solid rgba(255, 255,255,.2);
+   padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 0 10px;
+    color:#453c3c;;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 35px;
+}
 .container{
     border-bottom: 1px solid #b89f9f;
     width: 100%;
     margin: 0%;
+    height: 50px;
 } 
 .H-one{
    padding-left: 100px;
@@ -43,7 +78,6 @@ header{
     border-left: 2px solid;
     padding-left: 20px; 
     padding-right: 20px;
-    border-right: 1px solid;
 }
 .H-four{
     padding-left: 60%;
@@ -52,57 +86,8 @@ header{
     color: #181818;
     text-decoration: none;
 }
-.Sc-header{
-    width: 100%;
-    height: 35px;
-    background-color: #FFFF;
-    
-    display: flex;
-    font-size: .9375rem;
-}
 a{
-    
     text-decoration: none;
-}
-.Sc-Img1{
-padding-left: 80px;
-}
-.s1{
-    padding-left: 30px;
-}
-.s2{
-    padding-left: 20px;
-}
-.s3{
-    padding-left: 20px;
-}
-.s4{
-    padding-left: 20px;
-}
-.s5{
-    padding-left: 20px;
-}.s6{
-    padding-left: 20px;
-}.s7{
-    padding-left: 50px;
-}
-.s8{
-    padding-left: 20px;
-}
-.s9{
-    padding-left: 20px;
-}
-.s10{
-   padding-top: 17px;
-   padding-left: 13px;
-}
-.s11{
-    padding-top: 17px;
-    padding-left: 13px;
-}
-.s12{
-    padding-top: 17px;
-    padding-left: 13px; 
 }
 .bar{
 width: 100%;
@@ -705,6 +690,7 @@ padding-bottom: 60px;
 }
 .foot-head3{
     padding-left: 40px;
+    padding-top: 20px;
 }
 .foot4{
     margin-left: 50px;
@@ -718,10 +704,12 @@ padding-bottom: 60px;
 .foot-head4{
     margin: 0%;
     padding-left: 40px;
+    padding-top: 20px;
 }
 .bottom-icon{
     display: flex;
     justify-content: center;
+    background-color: #f5f5f5;   
     
 }
 footer{
@@ -730,7 +718,8 @@ footer{
     border-top: 1px solid #999;;
     justify-content: space-between;
     font-size: .8125rem;
-     
+    background-color: #f5f5f5;  
+      
 }
 .footer-1{
     display: flex;
